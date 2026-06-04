@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>🎁 هدية خالد</title>
+
+<link rel="stylesheet" href="race.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+</head>
+
+<body>
+
+<!-- الخلفية -->
+
+<div class="neon-bg"></div>
+
+<div class="circle c1"></div>
+<div class="circle c2"></div>
+<div class="circle c3"></div>
+<div class="circle c4"></div>
+
+<!-- اللوبي -->
+
+<section id="lobby">
+
+<div class="hero">
+
+<h1>
+🎁 هدية خالد
+</h1>
+
+<p>
+فرصة واحدة فقط لكل مشارك
+</p>
+
+</div>
+
+<div class="carsArea">
+
+<div class="carItem">
+<img src="assetscar2.png">
+</div>
+
+<div class="carItem">
+<img src="assetscar3.png">
+</div>
+
+<div class="carItem">
+<img src="assetscar4.png">
+</div>
+
+<div class="carItem">
+<img src="assetscar5.png">
+</div>
+
+</div>
+
+<button id="startBtn">
+
+<i class="fa-solid fa-flag-checkered"></i>
+
+ابدأ التحدي
+
+</button>
+
+</section>
+
+<!-- شاشة التقديم -->
+
+<div id="introScreen">
+
+<div class="introText">
+
+<h2>
+🎁 هدية خالد
+</h2>
+
+<p>
+جاري بدء التجربة...
+</p>
+
+</div>
+
+</div>
+
+<!-- الفيديو -->
+
+<div id="videoContainer">
+
+<video
+id="raceVideo"
+playsinline
+preload="auto">
+
+<source
+src="assetshighway.mp4"
+type="video/mp4">
+
+</video>
+
+</div>
+
+<!-- الصوت -->
+
+<audio id="engineSound">
+
+<source
+src="assetsengine.mp3"
+type="audio/mpeg">
+
+</audio>
+
+<!-- شاشة الفحص -->
+
+<div id="checkingScreen">
+
+<div class="loader"></div>
+
+<h2>
+جاري التحقق من النتيجة...
+</h2>
+
+</div>
+
+<!-- شاشة النتيجة -->
+
+<div id="resultScreen">
+
+<div id="resultContent">
+
+</div>
+
+</div>
+
+</body>
+
+<script src="race.js"></script>
+
+</html>
