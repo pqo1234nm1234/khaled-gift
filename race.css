@@ -439,3 +439,37 @@ font-size:130px;
 
 ```
 ```
+@media (max-width: 768px){
+
+.carsArea{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+}
+
+.carItem{
+    width:140px !important;
+    height:120px !important;
+}
+
+.carItem img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.hero h1{
+    font-size:42px !important;
+}
+
+.hero p{
+    font-size:18px !important;
+}
+
+#startBtn{
+    width:85%;
+    max-width:320px;
+}
+
+}
