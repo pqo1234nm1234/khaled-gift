@@ -6,7 +6,7 @@ const supabaseClient = window.supabase.createClient(
     SUPABASE_KEY
 );
 
-const WIN_CHANCE = 0.07;
+const WIN_CHANCE = 0.08;
 
 const startBtn = document.getElementById("startBtn");
 const lobby = document.getElementById("lobby");
